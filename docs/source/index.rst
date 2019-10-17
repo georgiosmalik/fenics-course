@@ -10,6 +10,7 @@ Welcome to FEniCS solid tutorial's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   bar1d/bar1d
 
 
 Indices and tables
