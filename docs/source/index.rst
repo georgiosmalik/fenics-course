@@ -11,6 +11,7 @@ Welcome to FEniCS solid tutorial's documentation!
    :caption: Contents:
 
    bar1d/bar1d
+   2DPlaneStrain/2D_Elasticity
 
 
 Indices and tables
