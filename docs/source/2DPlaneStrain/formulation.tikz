@@ -1,0 +1,47 @@
+\draw [thick] (0,0) rectangle (5,5);
+\draw [thick] (2.5,2.5) circle (2cm);
+
+% Dimensions:
+\draw [-latex] (2.5,2.5) -- (3.9,3.9);
+\draw [fill=black] (2.5,2.5) circle (.25ex);
+
+\draw [latex-latex] (0.,-1.) -- (5.,-1);
+\draw [thin] (0.,-0.75) -- (0.,-1.25);
+\draw [thin] (5.0,-0.75) -- (5.0,-1.25);
+
+\draw [latex-latex] (6.0,0.0) -- (6.0,5.0);
+\draw [thin] (5.75,0.0) -- (6.25,0.0);
+\draw [thin] (5.75,5.0) -- (6.25,5.0);
+
+\foreach \x in {-1,...,10}{
+    \draw [color = gray] (\x*0.5,-0.5) -- (\x*0.5+0.5,0.0);
+}
+
+% Boundary loading g:
+\foreach \x in {0,...,10}{
+	 \draw [-latex] (\x*0.5,5.5) -- (\x*0.5,5.0);
+}
+\draw (0.0,5.5) -- (5.0,5.5);
+
+% Volumetric loading
+\draw [-latex, thick] (-1.,2.5) -- (-1.,1.5);
+
+% Axes:
+\draw [-latex, thick] (0.,0.) -- (6.,0.);
+\draw [-latex, thick] (0.,0.) -- (0.,6.5);
+
+% Boundaries:
+\draw [very thick, blue!60!white] (0.0,0.0) -- (5.0,0.0);
+\draw [very thick, blue] (0.0,5.0) -- (5.0,5.0);
+
+% Text description:
+\node at (2.5,-0.75) {$l_x$};
+\node at (6.25,2.75) {$l_y$};
+\node at (3.0,2.5) {$R$};
+\node at (6.5,-0.25) {$x$};
+\node at (-0.25,6.75) {$y$};
+\node at (0.5,0.5) {$\Omega$};
+\node at (2.5,5.75) {$\mathbf{g}$};
+\node at (-1.25,2.) {$\mathbf{b}$};
+\node [blue!60!white] at (-0.6,0.0) {$\Gamma_\mathrm{D}$};
+\node [blue] at (-0.6,5.0) {$\Gamma_\mathrm{N}$};
