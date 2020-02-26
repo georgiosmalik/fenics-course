@@ -19,11 +19,3 @@ Welcome to FEniCS solid tutorial's documentation!
    references
 
 .. bibliography:: refs.bib
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
