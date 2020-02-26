@@ -10,12 +10,11 @@ Welcome to FEniCS solid tutorial's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   python-tutorial/python-tutorial
    bar1d/bar1d
    2DPlaneStrain/2D_Elasticity
    2DNonlinearElasticity/2DNonlinearElasticity
    Elastodynamics/Elastodynamics
    MixedSpaceProblem/Mixed_spaces
    EigenvalueProblem/EigenvalueProblem
-   references
-
-.. bibliography:: refs.bib
+   ./bibliography
