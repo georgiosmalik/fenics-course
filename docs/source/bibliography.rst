@@ -19,4 +19,3 @@ Mathematical theory of elasticity
 The basic reference, which we also consulted about the theoretical aspects of our course, is the book :cite:`ciarlet1994three`.
 
 .. bibliography:: refs.bib
-		  :style: plain
